@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria SASS</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Conect css -->
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header header-us">
+        <div class="header-container container">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo">
+                </div>
+                <nav class="nav-principal">
+                    <a href="index.html">Home</a>
+                    <a class="activo" href="aboutus.html">About us</a>
+                    <a href="process.html">Process</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="galery.html">Galery</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <div class="header-text">
+                <h1>A new experience every day</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-container text-center">
+        <h2>Know more <span>about us</span></h2>
+        <div class="us-container">
+            <div class="image">
+                <picture>
+                    <source srcset="build/img/nosotros_sidebar.avif" type="image/avif">
+                    <source srcset="build/img/nosotros_sidebar.webp" type="image/webp">
+                    <img loading="lazy" decoding="async" src="images/build/img/nosotros_sidebar.jpg" width: "500" height: "300" alt="images">
+                </picture>
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem eos numquam eligendi voluptatem praesentium nobis, culpa a ab iste illum dolore omnis ut. Atque eos reprehenderit aut ullam facere dignissimos.</p>
+
+                <blockquote>Exellent taste</blockquote>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem eos numquam eligendi voluptatem praesentium nobis, culpa a ab iste illum dolore omnis ut. Atque eos reprehenderit aut ullam facere dignissimos.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container bg-white">
+            <div class="footer-box ubication">
+                <h3>Ubication</h3>
+                <p>Nicolas Copernico 5990</p>
+                <p>Street, Dinmarc</p>
+            </div>
+            <div class="footer-box reservation">
+                <h3>Reservation</h3>
+                <p>Phone: 5486-34432</p>
+                <a href="tel:555555555">Call</a>
+
+            </div>
+            <div class="footer-box schedule">
+                <h3>Schedule</h3>
+                <p>Mon-Tus: 11:00 - 22:00</p>
+                <p>Fri-Sat: 9:00 - 24:00</p>
+                <p>Sun: Closed</p>
+            </div>
+        </div>
+        <p class="copyright">All rights reserved. La Cafeteria</p>
+    </footer>
+
+</body>
+
+</html>
