@@ -5,7 +5,10 @@
     .footer-container {
         padding: 5rem;
         @include m.tablet {
-            @include m.grid( 3, 2rem)
+            @include m.grid( 3, 2rem);
+            .myframe {
+                grid-column: span 3;
+            }
         }
     }
     .copyright {

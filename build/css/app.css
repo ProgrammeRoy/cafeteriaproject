@@ -769,6 +769,10 @@ h3 {
   margin: 0;
 }
 
+.myframe {
+  grid-column: span 3;
+}
+
 @media (min-width: 768px) {
   .us-container {
     display: grid;
