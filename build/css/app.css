@@ -739,6 +739,9 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
+  .footer .footer-container .myframe {
+    grid-column: span 3;
+  }
 }
 .footer .copyright {
   text-align: center;
@@ -767,10 +770,6 @@ h3 {
 .footer-box a {
   font-size: 2rem;
   margin: 0;
-}
-
-.myframe {
-  grid-column: span 3;
 }
 
 @media (min-width: 768px) {
@@ -909,6 +908,21 @@ h3 {
 }
 .formu .camp input[type=submit]:hover {
   cursor: pointer;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 7rem;
+  height: 7rem;
+  right: 2rem;
+  bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .btn-wsp {
+    width: 10rem;
+    height: 10rem;
+    bottom: 3rem;
+  }
 }
 
 .text-center {
